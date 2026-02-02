@@ -13,9 +13,32 @@
      <NAME>ZTEST_SUSH</NAME>
      <TYPE>RF</TYPE>
      <OBJECT>S_RFC</OBJECT>
-     <OKFLAG>X</OKFLAG>
+     <OKFLAG>Y</OKFLAG>
     </USOBX>
    </USOBX>
+   <USOBT>
+    <USOBT>
+     <NAME>ZTEST_SUSH</NAME>
+     <TYPE>RF</TYPE>
+     <OBJECT>S_RFC</OBJECT>
+     <FIELD>ACTVT</FIELD>
+     <LOW>16</LOW>
+    </USOBT>
+    <USOBT>
+     <NAME>ZTEST_SUSH</NAME>
+     <TYPE>RF</TYPE>
+     <OBJECT>S_RFC</OBJECT>
+     <FIELD>RFC_NAME</FIELD>
+     <LOW>ZTEST_SUSH</LOW>
+    </USOBT>
+    <USOBT>
+     <NAME>ZTEST_SUSH</NAME>
+     <TYPE>RF</TYPE>
+     <OBJECT>S_RFC</OBJECT>
+     <FIELD>RFC_TYPE</FIELD>
+     <LOW>FUNC</LOW>
+    </USOBT>
+   </USOBT>
   </asx:values>
  </asx:abap>
 </abapGit>
